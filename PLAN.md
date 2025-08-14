@@ -42,7 +42,9 @@ This project will include:
 ---
 
 ## 5. Workflow Diagram
-_(To be created and saved in `diagrams/` folder – will include process from submission to closure/escalation)_
+
+[Workflow Diagram](WORKFLOW.md)
+
 
 ---
 
