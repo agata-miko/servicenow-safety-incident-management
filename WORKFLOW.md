@@ -1,0 +1,12 @@
+flowchart TD
+    A[Manager submits incident form] --> B{Qualifies as workplace accident?}
+    B -- No --> C[Automatic closure and archive]
+    C --> D[Email notification to Safety Manager]
+    B -- Yes --> E[Assign to Safety staff with fewest open cases]
+    E --> F{Severity?}
+    F -- Serious/Fatal --> G[Escalate to company management]
+    G --> H[Notify Safety Manager, Management, and Stakeholders]
+    F -- Minor --> I[Safety staff handles case]
+    H --> J[Case resolution and closure]
+    I --> J[Case resolution and closure]
+    J --> K[Generate reports and update dashboards]
